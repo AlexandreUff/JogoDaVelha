@@ -193,14 +193,12 @@ main .texto-selecao .itens-de-escolha{
 }
 
 .main-footer{
-    /* position: fixed;
-    bottom: 0px; */
     margin-top: 5px;
-    padding: 10px;
+    padding: 10px 0px;
     width: 100%;
 
     color: var(--corSecundaria2);
-    background-color: #00440080;
+    background-color: #004400;
     text-align: center;
 
     font-size: 0.75em;
