@@ -62,7 +62,19 @@
     .area-de-relatorios{
         margin-top: 6px;
         padding: 5px;
-        /* font-size: 1.5em; */
     }
 
+}
+
+/*Controle de altura para mobile deitado */
+
+@media (max-height: 500px){
+
+    body {
+        background-size: 250%;
+    }
+
+    .gradiente-do-corpo{
+        height: 100%;
+    }
 }
