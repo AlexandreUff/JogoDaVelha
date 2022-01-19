@@ -193,9 +193,9 @@ main .texto-selecao .itens-de-escolha{
 }
 
 .main-footer{
-    position: fixed; /*VER ISSO AQUI*/
-    bottom: 0px;
-    margin-top: 15px;
+    /* position: fixed;
+    bottom: 0px; */
+    margin-top: 5px;
     padding: 10px;
     width: 100%;
 
