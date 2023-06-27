@@ -39,8 +39,11 @@ body {
 }
 
 .gradiente-do-corpo{
+    display: flex;
+    flex-direction: column;
+
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #2D882D);
-    min-height: 120vh;
+    min-height: 100vh;
 }
 
 header {
@@ -65,13 +68,15 @@ header span {
 main{
     display: flex;
     justify-content: center;
+    flex-grow: 1;
 }
 
 main .texto-selecao{
     overflow: hidden;
     background-color: var(--corGradienteVerde);
-    margin-top: 20px;
+    margin: auto ;
     border-radius: 10px;
+    height: 70%;
     
     backdrop-filter: blur(2px); /*Infelizmente não funciona no Firefox*/
 }
