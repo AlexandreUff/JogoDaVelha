@@ -215,4 +215,5 @@ main .texto-selecao .itens-de-escolha{
     margin-top: 10px;
     padding: 2px 10px;
     border-radius: 10px;
+    user-select: none;
 }
